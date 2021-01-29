@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.spacer {
+     flex: 1 1 auto;
+}
+app-github {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  
+ 
+}
+app-chingu {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+app-writing {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+app-blogger {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+app-word-press {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+app-python {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-image: url("assets/images/blacknwhite.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+app-django {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.flex-center-full {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+footer {
+    position: relative;
+    z-index: 20;
+}
+footer a{
+    color: white;
+}

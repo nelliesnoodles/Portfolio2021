@@ -1,0 +1,60 @@
+
+.full-center{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.backdrop {
+  height: 100vh;
+  width: 75vw;
+  position: absolute;
+  z-index: 1;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background: #673ab7;
+  color: white;
+  position: static;
+  z-index: 5;
+  padding: 10px;
+}
+.sm-image {
+    height: 300px;
+    width: auto;
+}
+ul {
+    list-style-type: none;
+    
+}
+
+.text-clip {
+  font-size: 2em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url("../../assets/images/vanGogh.jpg");
+  
+}
+
+.foreground {
+    position: static;
+    z-index: 10;
+
+}
+.primary {
+  /*background-color: #673ab7b8;*/
+  background-color: #00000040;
+  color: white;
+  border-radius: 10px;
+}

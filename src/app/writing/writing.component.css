@@ -1,0 +1,23 @@
+
+.backdrop3 {
+  height: 100vh;
+  width: 80vw;
+  top: 120px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 120px;
+  position: fixed;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+app-blogger {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+app-word-press {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
